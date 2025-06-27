@@ -1,3 +1,11 @@
+body {
+  background-color: rgb(93, 137, 171);
+  color:rgb(192, 107, 107);
+  overflow-x: hidden;
+}
+
+
+
 .home-scroll-container {
           
   overflow-y: auto;

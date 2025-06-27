@@ -137,7 +137,7 @@ const ChatbotComponent = () => {
       {!isChatOpen && (
         <button className="chatbot-open-button" onClick={toggleChat}>
           <img
-            src="/images/operator.png"
+            src="\images\operator.png"
             alt="Chat Icon"
             style={{ width: "100px", height: "auto" }}
           />
@@ -165,7 +165,7 @@ const ChatbotComponent = () => {
             )}
             {!isOnline && (
               <p className="chatbot-message offline-message">
-                :no_entry_sign:: You are currently offline. Please check your internet
+                :no_entry_symbol:: You are currently offline. Please check your internet
                 connection.
               </p>
             )}
@@ -177,7 +177,7 @@ const ChatbotComponent = () => {
                   )}
                   <p className={`${message.sender}-message`}>{message.text}</p>
                   {message.sender === "user" && (
-                    <div className="avatar user-avatar">:bust_in_silhouette:</div>
+                    <div className="avatar user-avatar">:silhouette:</div>
                   )}
                 </div>
               ))}
